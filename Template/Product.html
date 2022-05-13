@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+    rel="stylesheet"    
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>Shoes</title>
+</head>
+<body>
+    <div id="LoginDiv" class="LoginDiv">
+        <div  class="SignInBox">
+          <div class="header">
+            <span>Dallato Shoes</span>
+            Sign in to access your Dallato <br>member perks.
+          </div>
+          <div class="Login">
+            <div id="EmailDiv">
+              <input id="Email" class="LoginBox" type="text" placeholder="Email address">
+              <div id="EmailError"></div>
+            </div>
+            <div id="PasswordDiv">
+              <input id="Password" class="LoginBox" type="password" placeholder="Password">
+              <div id="PasswordError"></div>
+            </div>
+            <button class="LoginBox" id="SignIn">Sign In</button>
+          </div>
+          <div class="footer">
+             You dont have accout. <span id="Createbtn">Sign up</span> 
+          </div>
+        </div>
+      </div>
+    
+      <div id="LoginDiv1" class="LoginDiv1">
+        <div class="SignInBox">
+          <div class="header">
+            <span>Dallato Shoes</span>
+            Create new accout.
+          </div>
+          <div class="Login">
+            <div id="EmailDiv1">
+              <input id="Email1" class="LoginBox" type="text" placeholder="Email address">
+              <div id="EmailError1"></div>
+            </div>
+            <div id="PasswordDiv1">
+              <input id="Password1" class="LoginBox" type="password" placeholder="Password">
+              <div id="PasswordError1"></div>
+            </div>
+            <div id="PasswordConfirmDiv">
+              <input id="PasswordConfirm1" class="LoginBox" type="password" placeholder="Password">
+              <div id="PasswordConfirmError1"></div>
+            </div>
+            <div id="PhoneDiv1">
+              <input id="Phone1" class="LoginBox" type="text" placeholder="Phone">
+              <div id="PhoneError1"></div>
+            </div>
+            <div id="NameDiv1">
+              <input id="Name1" class="LoginBox" type="text" placeholder="Your name">
+              <div id="NameError1"></div>
+            </div>
+            
+            <button class="LoginBox" id="Create1">Create</button>
+          </div>
+          <div class="footer">
+            <P>Please enter all information to create accout</P>
+             Return sign in. <span id="Signinbtn">Sign in</span> 
+          </div>
+        </div>
+      </div>
+
+    <!-- Header -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+            <div class="logoContainer">
+                <img class="logoImage" src="./Images/Logo.png" alt="DallatoLogoShop">
+                <h2 class="logo"><a class="logo" href="./index.html">DlShoes</a></h2>
+            </div>
+            <nav>
+                <div class = "nav-links">
+                  <ul>  
+                    <li class = "nav-link"><a  href="./Category.html">Man</a></li>
+                    <li class = "nav-link"><a  href="./Category.html">Woman</a></li>
+                    <li class = "nav-link"><a  href="./Category.html">Kids</a></li>
+                    <li class = "nav-link">
+                      <a  href="./Category.html">Brand</a>
+                      <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link">
+                                <a href="./Category.html">Adidas</a>
+                            </li>
+                            <li class="dropdown-link">
+                                <a href="./Category.html">Nike</a>
+                            </li>
+                            <li class="dropdown-link">
+                                <a href="./Category.html">Jordan</a>
+                            </li>
+                            <li class="dropdown-link">
+                              <a href="./Category.html">Other Brand</a>
+                              <div class="dropdown second">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="./Category.html">Jeezy</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="./Category.html">Converse</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="./Category.html">Off-white</Off-white></a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                          </li>
+                            <div class="arrow"></div>
+                        </ul>
+                    </div>
+                    </li>
+                    <li class = "nav-link"><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+            </nav>
+            <div class = "searchContainer">
+                <div class="searchtext">
+                    <input type="text" class ="Search" placeholder="Search Here">
+                </div>
+            </div>
+            <div class="cart">
+                <a href="./Cart.html"><img class="cartlogo" src="./Images/Bag.png" alt="bag"></a>
+            </div> 
+            <div class="SignInContainer">
+              <h4 id="HomeHelp">Help</h4>
+              <p> || </p>
+              <h4 id="HomeSignIn">Sign In</h4>
+            </div> 
+        </nav>
+      </div>
+    </div>
+  </header> 
+
+  <Main>
+    <section class="productInformation">
+      <div class="ProInfImg">
+        <img class="ImgInf" src="./Shoes/Jordan 1 Mid Chicago Toe.png" width="900px">
+      </div>
+      <div class="ProInf">
+        <table class="table">
+          <tr>
+            <th>Name</th>
+            <th>Jordan 1 Mid Chicago Toe</th>
+          </tr>
+          <tr>
+            <th>Color</th>
+            <th>BLACK/GYM RED-WHITE</th>
+          </tr>
+          <tr>
+            <th>Price</th>
+            <th>$221</th>
+          </tr>
+          <tr>
+            <th>Quantity</th>
+            <th><Input class="Input" type="text" placeholder="Quantity"></Input></th>
+          </tr>
+        </table>
+        <Div class="SubmitProInf">
+          <button class="AddToCartBtn">Add to cart</button>
+        </Div>
+      </div>
+
+
+    </section>
+
+    
+
+    <section class="sectionNewShoes">
+      <h1>New shoes</h1>
+      <div class="item">
+        <div class="productCardBox">
+          <div class="slide-img">
+            <img src="./Shoes/Jordan 1 Mid Chicago Toe.png">
+            <div class="overlay">
+              <a href="./Product.html" class="buy-btn">Buy Now</a>	
+            </div>
+          </div>
+          <div class="detail-productCardBox">
+           <div class="type">
+             <a href="./Product.html">Jordan 1 Mid Chicago Toe</a>
+              <span>Nike</span>
+              <span>Jordan</span>
+            </div>
+            <a href="./Product.html" class="price">$211</a>
+          </div>
+        </div>	
+
+        <div class="productCardBox">
+          <div class="slide-img">
+            <img src="./Shoes/Jordan 1 Mid Chicago Toe.png">
+            <div class="overlay">
+              <a href="./Product.html" class="buy-btn">Buy Now</a>	
+            </div>
+          </div>
+          <div class="detail-productCardBox">
+           <div class="type">
+             <a href="./Product.html">Jordan 1 Mid Chicago Toe</a>
+              <span>Nike</span>
+              <span>Jordan</span>
+            </div>
+            <a href="./Product.html" class="price">$211</a>
+          </div>
+        </div>	
+        
+        <div class="productCardBox">
+          <div class="slide-img">
+            <img src="./Shoes/Jordan 1 Mid Chicago Toe.png">
+            <div class="overlay">
+              <a href="./Product.html" class="buy-btn">Buy Now</a>	
+            </div>
+          </div>
+          <div class="detail-productCardBox">
+           <div class="type">
+             <a href="./Product.html">Jordan 1 Mid Chicago Toe</a>
+              <span>Nike</span>
+              <span>Jordan</span>
+            </div>
+            <a href="./Product.html" class="price">$211</a>
+          </div>
+        </div>	
+
+
+        <div class="productCardBox">
+          <div class="slide-img">
+            <img src="./Shoes/Jordan 1 Mid Chicago Toe.png">
+            <div class="overlay">
+              <a href="./Product.html" class="buy-btn">Buy Now</a>	
+            </div>
+          </div>
+          <div class="detail-productCardBox">
+           <div class="type">
+             <a href="./Product.html">Jordan 1 Mid Chicago Toe</a>
+              <span>Nike</span>
+              <span>Jordan</span>
+            </div>
+            <a href="./Product.html" class="price">$211</a>
+          </div>
+        </div>	
+      </div>
+    </section>
+
+  </Main>
+
+  
+    <!-- Footer -->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>DALLATO<span>Shoes</span></h3>
+        <p class="footer-links">
+            Buy & Sell <br>Authentic Sneakers
+        </p>
+        <p class="footer-company-name">Dallatoshoes &copy; 2019</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Alley 27 Le Hong Phong</span> Da Lat, Viet Nam</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>(+84) 0123 456 789</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:tdhieu23@gmail.com">tdhieu23@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+        <span>About the Shop</span>
+        Shop specializes in selling all kinds of genuine shoes.
+        </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

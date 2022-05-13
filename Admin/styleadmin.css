@@ -1,0 +1,79 @@
+* {
+  margin: 2%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(75, 175, 175);
+  color: white;
+  padding: 20px 15px 20px 15px;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 15px;
+  letter-spacing: 2px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.loginadmin {
+  grid-column: 2/3;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  min-width: 400px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.inputvalue {
+  padding: 5px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Submitbtn {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.Menu {
+  grid-column: 1/2;
+}
+
+.Menu ul {
+  list-style: none;
+}
+
+.Menu ul li {
+  font-size: 30px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  padding: 25px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.Menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Main1 {
+  grid-column: 2/4;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.Continue a {
+  font-size: 44px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
